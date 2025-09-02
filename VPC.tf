@@ -4,5 +4,8 @@ resource "aws_vpc" "name" {
     tags={
     Name="sid"
     dept="cse"
+  tags={
+    Name="sid"
+    Owner ="devenv"
   }
 }
